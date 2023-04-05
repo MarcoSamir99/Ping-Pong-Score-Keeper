@@ -1,0 +1,58 @@
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
+
+img {
+
+    border-radius: 1%;
+}
+
+body {
+    padding-top: 10px;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#container { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+#container div { 
+    text-align: center;
+    flex-grow: 1;
+}
+
+button {
+    width: 199px;
+    height: 65px;
+}
+
+#playTo {
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    box-shadow: 2px;
+    border-color: grey;
+    margin-left: 7px;
+}
+
+
+hr {
+    color: #C7C7C7;
+}
+
+h5, h3 {
+    font-family: cursive;
+}
